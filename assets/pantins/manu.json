@@ -1,0 +1,213 @@
+{
+  "id": "manu",
+  "source": "pantins/manu.svg",
+  "width": 572,
+  "height": 561,
+  "viewBox": "0 0 572 561",
+  "rootMemberId": "torse",
+  "members": [
+    {
+      "id": "torse",
+      "name": "torse",
+      "parentId": "root",
+      "children": [
+        "tete",
+        "haut_bras_gauche",
+        "haut_bras_droite",
+        "cuisse_droite",
+        "cuisse_gauche"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "tete",
+      "name": "tete",
+      "parentId": "torse",
+      "children": [
+        "bouche"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "bouche",
+      "name": "bouche",
+      "parentId": "tete",
+      "children": [],
+      "isBehindParent": false,
+      "activeVariant": "bouche"
+    },
+    {
+      "id": "haut_bras_gauche",
+      "name": "haut_bras_gauche",
+      "parentId": "torse",
+      "children": [
+        "avant_bras_gauche"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "avant_bras_gauche",
+      "name": "avant_bras_gauche",
+      "parentId": "haut_bras_gauche",
+      "children": [
+        "main_gauche"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "main_gauche",
+      "name": "main_gauche",
+      "parentId": "avant_bras_gauche",
+      "children": [],
+      "isBehindParent": false,
+      "activeVariant": "recto"
+    },
+    {
+      "id": "haut_bras_droite",
+      "name": "haut_bras_droite",
+      "parentId": "torse",
+      "children": [
+        "avant_bras_droite"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "avant_bras_droite",
+      "name": "avant_bras_droite",
+      "parentId": "haut_bras_droite",
+      "children": [
+        "main_droite"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "main_droite",
+      "name": "main_droite",
+      "parentId": "avant_bras_droite",
+      "children": [],
+      "isBehindParent": false,
+      "activeVariant": "recto"
+    },
+    {
+      "id": "cuisse_droite",
+      "name": "cuisse_droite",
+      "parentId": "torse",
+      "children": [
+        "tibia_droite"
+      ],
+      "isBehindParent": true
+    },
+    {
+      "id": "tibia_droite",
+      "name": "tibia_droite",
+      "parentId": "cuisse_droite",
+      "children": [
+        "pied_droite"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "pied_droite",
+      "name": "pied_droite",
+      "parentId": "tibia_droite",
+      "children": [],
+      "isBehindParent": false
+    },
+    {
+      "id": "cuisse_gauche",
+      "name": "cuisse_gauche",
+      "parentId": "torse",
+      "children": [
+        "tibia_gauche"
+      ],
+      "isBehindParent": true
+    },
+    {
+      "id": "tibia_gauche",
+      "name": "tibia_gauche",
+      "parentId": "cuisse_gauche",
+      "children": [
+        "pied_gauche"
+      ],
+      "isBehindParent": false
+    },
+    {
+      "id": "pied_gauche",
+      "name": "pied_gauche",
+      "parentId": "tibia_gauche",
+      "children": [],
+      "isBehindParent": false
+    }
+  ],
+  "variantGroups": {
+    "bouche": {
+      "defaultVariant": "bouche",
+      "variants": {
+        "bouche": {
+          "isBehindParent": false
+        },
+        "bouche_a": {
+          "isBehindParent": false
+        },
+        "bouche_f": {
+          "isBehindParent": false
+        },
+        "bouche_o": {
+          "isBehindParent": false
+        },
+        "bouche_ch": {
+          "isBehindParent": false
+        },
+        "bouche_r": {
+          "isBehindParent": false
+        },
+        "bouche_l": {
+          "isBehindParent": false
+        },
+        "bouche_c": {
+          "isBehindParent": false
+        },
+        "bouche_u": {
+          "isBehindParent": false
+        },
+        "bouche_b": {
+          "isBehindParent": false
+        },
+        "bouche_ou": {
+          "isBehindParent": false
+        },
+        "bouche_th": {
+          "isBehindParent": false
+        }
+      }
+    },
+    "main_gauche": {
+      "defaultVariant": "recto",
+      "variants": {
+        "recto": {
+          "isBehindParent": true
+        },
+        "verso": {
+          "isBehindParent": true
+        },
+        "fuck": {
+          "isBehindParent": false
+        }
+      }
+    },
+    "main_droite": {
+      "defaultVariant": "recto",
+      "variants": {
+        "recto": {
+          "isBehindParent": true
+        },
+        "verso": {
+          "isBehindParent": true
+        },
+        "fuck": {
+          "isBehindParent": false
+        }
+      }
+    }
+  }
+}
